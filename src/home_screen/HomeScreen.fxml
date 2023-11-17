@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="708.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" height="523.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="200.0">
+      <fill>
+        <Color blue="0.200" green="0.584" red="1.000" fx:id="x1" />
+      </fill>
+    </Rectangle>
+    <Label layoutX="315.0" layoutY="43.0" text="Home  Screen">
+      <font>
+        <Font name="Bell MT Bold" size="45.0" />
+      </font>
+    </Label>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="67.0" layoutX="267.0" layoutY="128.0" stroke="BLACK" strokeType="INSIDE" width="369.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="67.0" layoutX="267.0" layoutY="250.0" stroke="BLACK" strokeType="INSIDE" width="369.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="67.0" layoutX="267.0" layoutY="374.0" stroke="BLACK" strokeType="INSIDE" width="369.0" />
+    <Label layoutX="326.0" layoutY="142.0" text="User  Management">
+      <font>
+        <Font name="Arial Bold" size="30.0" fx:id="x2" />
+      </font>
+    </Label>
+    <Label font="$x2" layoutX="303.0" layoutY="266.0" text="Product  Management" />
+    <Label layoutX="395.0" layoutY="384.0" text="Back">
+      <font>
+        <Font name="Arial Bold" size="34.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>

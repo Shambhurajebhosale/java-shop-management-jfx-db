@@ -1,0 +1,23 @@
+package User_Management;
+
+import common.StageFactory;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+
+public class UserManagementScreen {
+	public static void showUserManagementScreen() {
+	try {
+		Parent actorGroup = FXMLLoader.load(new URL("file:/C:\\Users\\Abhijeet\\eclipse-workspace\\ShopManagementJavafxDB\\src\\usermanagement\\Usermanagement.fxml"));
+		
+		StageFactory.stage.setTitle("User Management");
+		Scene scene = new Scene(actorGroup,600,400);
+		StageFactory.stage.setScene(scene);
+		StageFactory.stage.setFullScreen(true);
+		StageFactory.stage.show();
+	}
+	catch(Exception e) {
+		e.printStackTrace();
+	}
+}
+}
